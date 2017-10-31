@@ -10,6 +10,9 @@ namespace HelloKelly
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hey Katy, it's Kelly!");
+            Console.ReadLine();
+
         }
     }
 }
