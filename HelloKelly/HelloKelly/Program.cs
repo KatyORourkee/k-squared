@@ -13,16 +13,15 @@ namespace HelloKelly
         {
             string userName;
             Console.WriteLine("What is your name?");
-            userName=Console.ReadLine();
+            userName = Console.ReadLine();
             Greeting(userName);
             Console.Write("Press <Enter> to exit... ");
-            while (Console.ReadKey().Key != ConsoleKey.Enter) { }
+            Console.ReadLine();
+         }
 
-        }
-        static void Greeting(string userName )
+        static void Greeting(string name )
         {
-            Console.WriteLine("Nice to meet you, " + userName + "!");
-
+            Console.WriteLine($"Nice to meet you, {name} !");
         }
     }
 }
