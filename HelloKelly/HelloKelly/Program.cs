@@ -1,14 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HelloKelly
 {
     class Program
     {
-        
         static void Main(string[] args)
         {
             string userName;
@@ -17,7 +12,7 @@ namespace HelloKelly
             Greeting(userName);
             Console.Write("Press <Enter> to exit... ");
             Console.ReadLine();
-         }
+        }
 
         static void Greeting(string name )
         {
